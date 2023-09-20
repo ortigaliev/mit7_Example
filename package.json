@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ortigaliev/mit7_Example#readme",
   "dependencies": {
+    "inquirer": "^8.2.6",
     "moment": "^2.29.4"
   }
 }
