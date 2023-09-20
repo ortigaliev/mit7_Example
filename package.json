@@ -2,9 +2,9 @@
   "name": "mit7_example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "externalPack.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon externalPack.js",
     "test": "echo \"No test specified\""
   },
   "repository": {
