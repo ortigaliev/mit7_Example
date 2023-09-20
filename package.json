@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/ortigaliev/mit7_Example#readme",
   "dependencies": {
+    "i": "^0.3.7",
     "inquirer": "^8.2.6",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "validator": "^13.11.0"
   }
 }
