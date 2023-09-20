@@ -1,3 +1,8 @@
 const moment  = require('moment');
-const time = moment().format();
-console.log(`Hozirgi sana ${time}`);
+
+
+setInterval(() => {
+  const time = moment().format();
+  console.log(`Hozirgi vaqt ${time}`);
+
+}, 5000);
