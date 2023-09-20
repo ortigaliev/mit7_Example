@@ -19,3 +19,6 @@ inquirer
 .catch ((err) =>console.log(err)); */
 
 //validator package - bu malumotlarni validat qilib beradi. Install qilamiz
+const validator = require('validator');
+const test = validator.isEmail('foo@bar.com');
+console.log('test', test);
