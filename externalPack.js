@@ -34,7 +34,7 @@ const { v4: uuidv4 } = require('uuid');
 const random = uuidv4();
 console.log("random:", random);
 
-const chalk = require ('chalk');
+const chalk = require('chalk');
 const log = console.log;
 
-log(chalk.red(`uuid creates ${random}`)); //rangini o'zgartirib beradi
+log(chalk.red(`uuid creates ${random}`));//rangini o'zgartirib beradi
