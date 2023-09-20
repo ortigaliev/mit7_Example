@@ -26,3 +26,15 @@ const test = validator.isIP('121.139.161.'); //ipni tekshiradi
 console.log('test', test); // bu aynan emailimizni @ belgisi borligini va .com bo'lishini tekshiradi. Buni tekshirish uchun algoratim yozib o'tirmasdan shuni tayyor ishlatish mumkin */
 
 
+/* const { v4: uuidv4 } = require('uuid'); // Random identifier yaratib beradinpm
+const random = uuidv4();
+console.log("random:", random);//bb8ea8ae-ccf7-4445-9f25-774c942b6fa4 */
+
+const { v4: uuidv4 } = require('uuid');
+const random = uuidv4();
+console.log("random:", random);
+
+const chalk = require ('chalk');
+const log = console.log;
+
+log(chalk.red(`uuid creates ${random}`)); //rangini o'zgartirib beradi
