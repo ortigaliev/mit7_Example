@@ -12,3 +12,5 @@ hisobla.qushish = (a, b) => {
 hisobla.ayrish = (a, b) => {
   return a - b;
 };
+
+module.exports = hisobla;

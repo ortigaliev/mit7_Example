@@ -30,11 +30,18 @@ console.log('test', test); // bu aynan emailimizni @ belgisi borligini va .com b
 const random = uuidv4();
 console.log("random:", random);//bb8ea8ae-ccf7-4445-9f25-774c942b6fa4 */
 
-const { v4: uuidv4 } = require('uuid');
+/* const { v4: uuidv4 } = require('uuid');
 const random = uuidv4();
 console.log("random:", random);
 
 const chalk = require('chalk');
 const log = console.log;
 
-log(chalk.red(`uuid creates ${random}`));//rangini o'zgartirib beradi
+log(chalk.red(`uuid creates ${random}`));//rangini o'zgartirib beradi */
+
+
+
+//Module packages FILE
+const calculate = require('./hisoblash.js');
+let natija = calculate.kupaytirish(45, 2);
+console.log("natija ", natija);
